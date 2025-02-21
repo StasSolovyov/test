@@ -1,10 +1,8 @@
 // src/App.tsx
+import AppRoutes from "./routes";
+
 function App() {
-  return (
-    <div className="App">
-      <h1>Welcome to My Animation App</h1>
-    </div>
-  );
+  return <AppRoutes />;
 }
 
 export default App;
